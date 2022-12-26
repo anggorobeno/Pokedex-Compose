@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pokedex Compose</string>
+    <string name="menu_list">Pokemon List</string>
+
+</resources>
