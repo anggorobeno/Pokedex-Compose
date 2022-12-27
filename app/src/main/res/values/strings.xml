@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Pokedex Compose</string>
     <string name="menu_list">Pokemon List</string>
+    <string name="name">Anggoro Beno Lukito</string>
+    <string name="email">anggoro131098@gmail.com</string>
 
 </resources>

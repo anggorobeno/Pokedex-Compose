@@ -3,7 +3,7 @@ package com.example.pokedexcompose
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.pokedexcompose.data.PokemonRepository
-import com.example.pokedexcompose.ui.screen.PokemonListViewModel
+import com.example.pokedexcompose.ui.screen.listpokemon.PokemonListViewModel
 
 class ViewModelFactory(private val repo: PokemonRepository) :
     ViewModelProvider.NewInstanceFactory() {

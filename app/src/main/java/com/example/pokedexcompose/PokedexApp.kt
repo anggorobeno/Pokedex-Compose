@@ -1,18 +1,14 @@
 package com.example.pokedexcompose
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.AccountCircle
 import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.filled.ShoppingCart
 import androidx.compose.material.icons.filled.Star
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavGraph.Companion.findStartDestination
@@ -23,7 +19,7 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.example.pokedexcompose.ui.navigation.NavigationItem
 import com.example.pokedexcompose.ui.navigation.Screen
-import com.example.pokedexcompose.ui.screen.PokemonListScreen
+import com.example.pokedexcompose.ui.screen.listpokemon.PokemonListScreen
 import com.example.pokedexcompose.ui.theme.PokedexComposeTheme
 
 @Composable

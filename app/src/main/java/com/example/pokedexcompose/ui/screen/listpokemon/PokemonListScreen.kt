@@ -1,7 +1,6 @@
-package com.example.pokedexcompose.ui.screen
+package com.example.pokedexcompose.ui.screen.listpokemon
 
 import androidx.compose.foundation.ExperimentalFoundationApi
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.lazy.GridCells

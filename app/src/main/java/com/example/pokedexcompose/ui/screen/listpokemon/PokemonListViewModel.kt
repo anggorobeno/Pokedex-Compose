@@ -1,4 +1,4 @@
-package com.example.pokedexcompose.ui.screen
+package com.example.pokedexcompose.ui.screen.listpokemon
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -18,7 +18,7 @@ class PokemonListViewModel(private val repository: PokemonRepository) : ViewMode
         getAllPokemon()
     }
 
-    fun getAllPokemon() {
+    private fun getAllPokemon() {
         viewModelScope.launch {
             repository.getAllPokemon()
                 .catch {
